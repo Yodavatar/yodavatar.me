@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewp ort" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Main page of the website">
+    <meta name="keywords" content="Yodavatar, Yodavatar website, Yodavatar projects">
+    <meta name="author" content="Yodavatar contributors">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yodavatar</title>
+    <link rel="stylesheet" href="mistral.css">
+    <link rel="icon" href="logo.png" type="image/png">
+</head>
+<body>
+    <header class="header-container">
+        <img src="wallpaper.jpg" alt="Image de fond" class="header-image">
+        <div class="header-content">
+            <h1>Yodavatar</h1>
+            <p>Welcome to my website, here you can explore all my projects.</p>
+            <div class="buttons">
+                <button class="btn blue">Contact me</button>
+                <button class="btn gray">About me</button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="search-container" id="search-container">
+            <input type="text" id="search-bar" placeholder="Rechercher un projet..." onkeyup="filterProjects()">
+        </div>
+        <section class="projects" id="projects-section">
+            <div class="project" data-name="Projet 1">
+                <img src="logo.png" alt="Project 1">
+                <h2>Projet 1</h2>
+                <p>Description du projet 1.</p>
+                <p class="date">Date : 01/01/2023</p>
+            </div>
+            <div class="project" data-name="Projet 2">
+                <img src="logo.png" alt="Project 2">
+                <h2>Projet 2</h2>
+                <p>Description du projet 2.</p>
+                <p class="date">Date : 02/01/2023</p>
+            </div>
+            <div class="project" data-name="Projet 3">
+                <img src="logo.png" alt="Project 3">
+                <h2>Projet 3</h2>
+                <p>Description du projet 3.</p>
+                <p class="date">Date : 03/01/2023</p>
+            </div>
+            <div class="project" data-name="Projet 4">
+                <img src="logo.png" alt="Project 4">
+                <h2>Projet 4</h2>
+                <p>Description du projet 4.</p>
+                <p class="date">Date : 04/01/2023</p>
+            </div>
+            <div class="project" data-name="Projet 5">
+                <img src="logo.png" alt="Project 5">
+                <h2>Projet 5</h2>
+                <p>Description du projet 5.</p>
+                <p class="date">Date : 05/01/2023</p>
+            </div>
+            <div class="project" data-name="Projet 6">
+                <img src="logo.png" alt="Project 6">
+                <h2>Projet 6</h2>
+                <p>Description du projet 6.</p>
+                <p class="date">Date : 06/01/2023</p>
+            </div>
+            <div class="project" data-name="Projet 7">
+                <img src="logo.png" alt="Project 7">
+                <h2>Projet 7</h2>
+                <p>Description du projet 7.</p>
+                <p class="date">Date : 07/01/2023</p>
+            </div>
+            <div class="project" data-name="Projet 8">
+                <img src="logo.png" alt="Project 8">
+                <h2>Projet 8</h2>
+                <p>Description du projet 8.</p>
+                <p class="date">Date : 08/01/2023</p>
+            </div>
+            <div class="project" data-name="Projet 9">
+                <img src="logo.png" alt="Project 9">
+                <h2>Projet 9</h2>
+                <p>Description du projet 9.</p>
+                <p class="date">Date : 09/01/2023</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 Yodavatar. All rights reserved.</p>
+            <p>Legal information | Privacy policy</p>
+            <div class="footer-buttons">
+                <button class="btn blue">Contact me</button>
+                <button class="btn gray">About me</button>
+            </div>
+        </div>
+    </footer>
+    <button class="scroll-down" onclick="scrollToSearch()">
+        ↓
+    </button>
+    <script src="script.js"></script>
+</body>
+</html>
